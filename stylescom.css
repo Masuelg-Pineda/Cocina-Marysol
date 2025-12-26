@@ -33,13 +33,18 @@
 /*Encabezado*/
 
 .header{
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    align-items: center;
-    padding: 10px 20px;
+    padding: 15px 0px;
 }
 .nav{
-  text-decoration: none;
+text-decoration: #754f44;
+  color: #754f44;
+}
+
+.sepnav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
 }
 
 /*Puras imagenes*/
