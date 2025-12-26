@@ -1,0 +1,50 @@
+.geom-font {
+  font-family: "Geom", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.body{
+    background-color: #fdd692;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #754f44;
+}
+
+.titulo-principal{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /*BColores paleta Earthy Neutrals de coolors.co*/
+    font-size: 78px;
+    font-weight: bold;
+    color: #9c9583;
+    text-align: center;
+    margin: 0;
+}
+.Subti{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #9c9583;
+}
+ .card {
+  margin: 16px;           /* espacio externo */
+  padding: 12px;          /* espacio interno */
+  border: 1px solid #d1d5db;
+}
+
+/*Encabezado*/
+
+.header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 10px 20px;
+}
+.nav{
+  text-decoration: none;
+}
+
+/*Puras imagenes*/
+
+.Logo_cocina{
+  width: 90px;
+  border-radius: 50%;
+}
